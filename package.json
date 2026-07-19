@@ -1,0 +1,16 @@
+{
+  "name": "prompteasy",
+  "private": true,
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write .",
+    "check-types": "turbo check-types"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.5"
+  }
+}
