@@ -4,4 +4,36 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "alembic>=1.18.5",
+    "anthropic>=0.117.0",
+    "black>=26.5.1",
+    "fastapi>=0.139.2",
+    "google-genai>=2.13.0",
+    "httpx>=0.28.1",
+    "litellm>=1.93.0",
+    "mypy>=2.3.0",
+    "nltk>=3.10.0",
+    "openai>=2.46.0",
+    "orjson>=3.11.9",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.2",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "python-dotenv>=1.2.2",
+    "rapidfuzz>=3.14.5",
+    "redis>=8.0.1",
+    "rich>=15.0.0",
+    "ruff>=0.15.22",
+    "spacy>=3.8.14",
+    "sqlalchemy>=2.0.51",
+    "tiktoken>=0.13.0",
+    "typer>=0.27.0",
+    "uvicorn>=0.51.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "pre-commit>=4.6.0",
+]
