@@ -12,3 +12,17 @@ class PromptCategory(str, Enum):
     EDUCATION = "education"
     PRODUCTIVITY = "productivity"
     UNKNOWN = "unknown"
+
+class PromptIntent(str, Enum):
+    CREATE = "create"
+    IMPROVE = "improve"
+    ANALYZE = "analyze"
+    SUMMARIZE = "summarize"
+    DESIGN = "design"
+    DEBUG = "debug"
+    UNKNOWN = "unknown"
+
+class PromptComplexity(str, Enum):
+    LOW = "low"
+    MEDIUM = "medium"
+    HIGH = "high"
